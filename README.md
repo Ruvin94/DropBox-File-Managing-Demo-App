@@ -27,9 +27,9 @@
     <li>Visit https://www.dropbox.com/developers/apps?_tk=pilot_lp&_ad=topbar4&_camp=myapps</li>
     <li>Create new Application with full access requirements</li>
     <li>Redirect URIs as "https://localhost:44304/DropBox/Details"</li>
-    <li>Grab App key and  Replace value on Webconfig  <add key="DropBoxAppKey" value=""/></li>
-    <li>Visit https://www.dropbox.com/developers/documentation/http/documentation#auth-token-from_oauth1 and Search for <get app key and secret> and click on the word and grab the secret.</li>
-    <li>Replace value on Webconfig  <add key="AuthApiSecret" value=""/></li>
+    <li>Grab App key and  Replace value on Webconfig  "DropBoxAppKey" </li>
+    <li>Visit https://www.dropbox.com/developers/documentation/http/documentation#auth-token-from_oauth1 and Search for "get app key and secret" and click on the word and grab the secret.</li>
+    <li>Replace value on Webconfig  "AuthApiSecret" in AppSetting</li>
     <li>Run the solution, Enjoy coding!! </li>
     
 </ol>
