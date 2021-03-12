@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Configuration;
 using System.IO;
 using System.Linq;
 using System.Net.Http;
@@ -17,7 +18,8 @@ namespace PhotoApp.Service
         public async System.Threading.Tasks.Task<DropBoxTokenResponse> RetreiveTokenAsync(string tokenCode)
         {
             HttpClient client = new HttpClient();
-            client.DefaultRequestHeaders.Add("Authorization", "Basic MjhwNjhxcWFwbnZiem9wOnllYTQ0azJ1MWo0ajF2Ng==");
+            var appKey = ConfigurationManager.AppSettings["AuthApiSecret"].ToString();
+            client.DefaultRequestHeaders.Add("Authorization", "Basic "+ appKey);
             string url = "https://api.dropbox.com/oauth2/token?code=" + tokenCode + "&grant_type=authorization_code&redirect_uri=https://localhost:44304/DropBox/Details";
             var response = await client.PostAsync(url,null);
             var contents = await response.Content.ReadAsStringAsync();

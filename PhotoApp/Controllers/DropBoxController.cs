@@ -3,6 +3,7 @@ using PhotoApp.Models;
 using PhotoApp.Service;
 using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.IO;
 using System.Linq;
 using System.Web;
@@ -16,7 +17,8 @@ namespace PhotoApp.Controllers
         // GET: DropBox
         public ActionResult Index()
         {
-            return Redirect("https://www.dropbox.com/oauth2/authorize?client_id=28p68qqapnvbzop&redirect_uri=https://localhost:44304/DropBox/Details&response_type=code");
+            var apiAuth = ConfigurationManager.AppSettings["DropBoxAppKey"].ToString();
+            return Redirect("https://www.dropbox.com/oauth2/authorize?client_id="+apiAuth+"&redirect_uri=https://localhost:44304/DropBox/Details&response_type=code");
         }
 
         // GET: DropBox/Details?code=
