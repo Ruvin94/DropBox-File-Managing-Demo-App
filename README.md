@@ -33,3 +33,13 @@
     <li>Run the solution, Enjoy coding!! </li>
     
 </ol>
+
+<h5><b>Screen Shots</b></h5>
+
+![loginDrop](https://user-images.githubusercontent.com/65180594/110933470-d3dd8880-8352-11eb-86f1-064b3115c792.PNG)
+![DropLogin2](https://user-images.githubusercontent.com/65180594/110933485-d93ad300-8352-11eb-9ea5-56c4a027b2c5.PNG)
+![DetailsDrop](https://user-images.githubusercontent.com/65180594/110933503-de981d80-8352-11eb-8d1e-8e189a8cefa9.PNG)
+![AddDrop](https://user-images.githubusercontent.com/65180594/110933527-e5bf2b80-8352-11eb-9c75-a704fe87dee3.PNG)
+![DeleteDrop](https://user-images.githubusercontent.com/65180594/110933542-e8218580-8352-11eb-8ecf-362007292182.PNG)
+![AboutDrop](https://user-images.githubusercontent.com/65180594/110933559-ec4da300-8352-11eb-90db-04735e69006c.PNG)
+
