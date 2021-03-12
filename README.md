@@ -5,15 +5,10 @@
 </p>
 
 <h5><b>Technologies</b></h5>
-<ol>
+<ul>
     <li>Asp.net MVC</li>
-    <li>DropBox Api V2</li>
-    <li>Upload New File</li>
-    <li>Delete Available file</li>
-    <li>Preview Files with DropBox End point</li>
-    <li>Download a copy of the File</li>
-    <li>Revoke DropBox Access to Applicatin(Using DropBox User Logout)</li>
-</ol>
+    <li>DropBox Api V2</li>    
+</ul>
 
 
 <h5><b>Functionalities</b></h5>
