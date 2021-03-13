@@ -2,6 +2,7 @@
 
 <p>
     This Application has configured 0Auth Login with DropBox Authentication server and then access loggd user resources using DropBox resource server.
+    :innocent:
 </p>
 
 <h5><b>Technologies</b></h5>
@@ -30,7 +31,7 @@
     <li>Grab App key and  Replace value on Webconfig  "DropBoxAppKey" </li>
     <li>Visit https://www.dropbox.com/developers/documentation/http/documentation#auth-token-from_oauth1 and Search for "get app key and secret" and click on the word and grab the secret.</li>
     <li>Replace value on Webconfig  "AuthApiSecret" in AppSetting</li>
-    <li>Run the solution, Enjoy coding!! </li>
+    <li>Run the solution, Enjoy coding!! :sunglasses: </li>
     
 </ol>
 
